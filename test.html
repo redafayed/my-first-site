@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re`Da | Front-End Developer</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Css/test.css">
+
+</head>
+
+<body>
+    <!-- ================= LAMP ================= -->
+
+    <div class="lamp-switch">
+        <div class="mini-lamp">
+
+            <div class="mini-lamp-head"></div>
+            <div class="mini-lamp-body"></div>
+            <div class="mini-lamp-base"></div>
+
+            <div class="lamp-string" id="lampString">
+                <span id="lampHandle"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="darkScreen"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#home">
+                <span class="logo-icon">◈</span>
+                Re`Da
+            </a>
+
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+                <a href="#contact" class="btn btn-success">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section id="home" class="hero">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-7 hero-content">
+
+                        <p class="hero-small">
+                            Hi, I'm
+                        </p>
+
+                        <h1>
+                            Re`Da.
+                            <span> a Front-End Developer</span>
+                        </h1>
+
+                        <p class="hero-description">
+                            I build clean, responsive and modern websites
+                            using HTML, CSS and JavaScript, with a focus
+                            on simple design and great user experience.
+                        </p>
+
+                        <div class="hero-buttons">
+
+                            <a href="#portfolio" class="btn btn-success">
+                                View Portfolio
+                            </a>
+
+                            <a href="#contact" class="btn btn-outline-success">
+                                Contact Me
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- مجرد صورة تحط صورتك هنا -->
+
+                    <div class="col-lg-5 text-center">
+
+                        <div class="profile-wrapper">
+
+                            <img src="images/profile.png" alt="Re`Da" class="profile-image">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section-padding">
+
+            <div class="container">
+
+                <div class="section-heading text-center">
+
+                    <h2>
+                        My <span>Skills</span>
+                    </h2>
+
+                    <p>
+                        Technologies I use to build modern websites.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+
+                        <div class="skill-card">
+
+                            <div class="skill-icon html">
+                                <i class="fa-brands fa-html5"></i>
+                            </div>
+
+                            <h3>HTML</h3>
+
+                            <p>
+                                Semantic HTML5 for structured,
+                                accessible and SEO-friendly websites.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="skill-card">
+
+                            <div class="skill-icon css">
+                                <i class="fa-brands fa-css3-alt"></i>
+                            </div>
+
+                            <h3>CSS</h3>
+
+                            <p>
+                                Responsive layouts, Flexbox, Grid,
+                                animations and modern visual design.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="skill-card">
+
+                            <div class="skill-icon javascript">
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+
+                            <h3>JavaScript</h3>
+
+                            <p>
+                                Interactive interfaces, DOM manipulation,
+                                validation and dynamic behavior.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PORTFOLIO ================= -->
+
+        <section id="portfolio" class="section-padding portfolio-section">
+
+            <div class="container">
+
+                <div class="section-heading text-center">
+
+                    <h2>
+                        My <span>Portfolio</span>
+                    </h2>
+
+                    <p>
+                        Some of my front-end development tasks.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+                    <!-- TASK ONE -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="project-card">
+
+                            <div class="project-image">
+
+                                <img src="https://placehold.co/800x500/eaf7ed/4caf50?text=Task+One" alt="Task One">
+
+                            </div>
+
+                            <div class="project-content">
+
+                                <h3>
+                                    Task One
+                                </h3>
+
+                                <p>
+                                    Front-End development task built
+                                    using HTML, CSS and JavaScript.
+                                </p>
+
+                                <a href="#" class="project-link">
+                                    View Task
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TASK TWO -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="project-card">
+
+                            <div class="project-image">
+
+                                <img src="https://placehold.co/800x500/eaf7ed/4caf50?text=Task+Two" alt="Task Two">
+
+                            </div>
+
+                            <div class="project-content">
+
+                                <h3>
+                                    Task Two
+                                </h3>
+
+                                <p>
+                                    Responsive interface designed
+                                    with a clean and modern layout.
+                                </p>
+
+                                <a href="#" class="project-link">
+                                    View Task
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- TASK THREE -->
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="project-card">
+
+                            <div class="project-image">
+
+                                <img src="https://placehold.co/800x500/eaf7ed/4caf50?text=Task+Three" alt="Task Three">
+
+                            </div>
+
+                            <div class="project-content">
+
+                                <h3>
+                                    Task Three
+                                </h3>
+
+                                <p>
+                                    Interactive web task focused
+                                    on usability and responsive design.
+                                </p>
+
+                                <a href="#" class="project-link">
+                                    View Task
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section-padding contact-section">
+
+            <div class="container">
+
+                <div class="section-heading text-center">
+
+                    <h2>
+                        Contact <span>Me</span>
+                    </h2>
+
+                    <p>
+                        Feel free to contact me.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-6 col-md-3">
+
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-item">
+
+                            <div class="contact-icon">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+
+                            <span>Github</span>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="col-6 col-md-3">
+
+                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-item">
+
+                            <div class="contact-icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+
+                            <span>Instagram</span>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="col-6 col-md-3">
+
+                        <a href="mailto:hello@example.com" class="contact-item">
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <span>Email</span>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="col-6 col-md-3">
+
+                        <a href="tel:+0000000000" class="contact-item">
+
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <span>Phone</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container text-center">
+
+            <h3>
+                Re`Da
+            </h3>
+
+            <p>
+                Front-End Developer
+            </p>
+
+            <p class="copyright">
+                © 2026 Re`Da. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+
+    <script src="js/test.js"></script>
+
+</body>
+
+</html>
